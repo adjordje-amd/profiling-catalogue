@@ -23,6 +23,7 @@ inline constexpr std::array descriptors = {
         .stability    = Stability::Stable,
         .needs_root   = false,
         .multiplexed  = true,
+        .default_enabled = true,
     },
     MetricDescriptor{
         .id           = 0x2002,
@@ -108,6 +109,7 @@ inline constexpr std::array descriptors = {
         .stability    = Stability::Stable,
         .needs_root   = false,
         .multiplexed  = true,
+        .default_enabled = true,
     },
     MetricDescriptor{
         .id           = 0x2007,

@@ -25,6 +25,12 @@ struct MetricDescriptor {
 
     bool             needs_root;
     bool             multiplexed;
+
+    // Hint to UX layers: include this metric in the default selection when
+    // a user opens a device for the first time. Keeps the starter preset
+    // low-cost, broadly useful, and Stable. Downstream tools may still
+    // intersect with their own supported-id list before applying.
+    bool             default_enabled = false;
 };
 
 } // namespace profcat
