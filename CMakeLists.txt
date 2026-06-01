@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(profiler-catalog
+project(profiling-catalogue
         VERSION 0.2.0
         DESCRIPTION "Constexpr catalog of GPU profiler metrics"
         LANGUAGES CXX)
